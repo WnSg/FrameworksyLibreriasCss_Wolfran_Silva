@@ -1,0 +1,130 @@
+.turismo-body {
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.barra-superior{
+  min-height: 10rem;
+  opacity: 0.9 !important;
+}
+div[class*="columna"]{
+  min-height: 50rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
+.columna-chat, .columna-news{
+  padding: 0 !important;
+}
+.contenedor-write-publicacion{
+  min-height: 7rem;
+}
+.contenedor-publicacion{
+  min-height: 17rem;
+}
+.logo{
+  width: 170px;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1px;
+}
+.contenedor-noticias{
+  margin-top: 1rem;
+  min-height: 50rem;
+  padding: 0.5rem;
+}
+.responsive-img{
+/*  border: 0.1rem solid #29b6f6;
+  border-radius: 5px;*/
+}
+.buscar-campo{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+.barra-superior .row{
+  margin-bottom: 0;
+
+}
+.contenedor-botones{
+  margin-top: 1rem;
+}
+#publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  resize: none;
+  border: 1px solid #ff8f00;
+  background-color: #ff8f00;
+  height: 5rem;
+  color: #fff;
+}
+
+#Comentarios label{
+  color: white;
+  font-weight: bold;
+}
+
+#Seccion_Entradas span{
+  background-color: #e0e0e0;
+  border-radius: 20px;
+}
+
+#Perfil_Autor img{
+  width: 50%;
+}
+
+#Perfil_Autor {
+ text-align: center;
+}
+
+
+#Contenido_Imagenes img{
+  border: 0.1rem solid #29b6f6;
+  border-radius: 5px;
+}
+
+.contenido{
+  min-height: 6rem;
+  z-index: 3px;
+}
+
+.columna-grupos{
+  padding-top:  70px !important;
+}
+
+.item {
+margin-top: 7px;
+}
+-->
+.columna-principal{
+  padding-top: 70px !important;
+  opacity: 1 !important;
+}
+.row{
+  opacity: 0.9 !important;
+}
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0 !important;
+  }
+
+  .logo{
+    width: 150px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1px;
+  }
+  .columna-principal{
+    padding-top: 10px !important;
+    width: 100%
+  }
+
+}
